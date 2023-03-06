@@ -1,0 +1,61 @@
+{"intents": [
+  {"tag": "pozdravení",
+   "patterns": ["ahoj",
+                "dobrý den",
+                "zdravím",
+                "zdar",
+                "čus",
+                "hele",
+                "haló",
+                "čau"],
+   "responses": ["Ahoj! Jak se máš?",
+                "Dobrý den, jak se daří?",
+                "Zdravím, co nového?",
+                "Čau, jak se vede?",
+                "Ahoj, těší mě!",
+                "Hele, jak se máš?",
+                "Haló, co je nového?"]
+  },
+  {"tag": "loučení",
+   "patterns": ["nashledanou",
+                "měj se",
+                "pa",
+                "ukončit",
+                "končit",
+                "ukonči"],
+   "responses": [ "Měj se dobře!",
+                  "Těším se na další rozhovor!",
+                  "Nashledanou, zase někdy!",
+                  "Ukončuji rozhovor, měj se!",
+                  "Končím, ať se daří!",
+                  "Ukončuji, pa."]
+  },
+  {
+      "tag": "poděkování",
+      "patterns": [
+        "díky",
+        "děkuji",
+        "mockrát děkuji",
+        "velmi děkuji",
+        "díky moc",
+        "děkuju",
+        "díky hezké",
+        "dík",
+        "moc díky"],
+      "responses": [
+        "Rádo se stalo!",
+        "Není zač, kdykoliv rád pomohu.",
+        "Není zač, s radostí pomáhám.",
+        "Rád pomohu, když potřebuješ.",
+        "Není problém, vždycky jsem tu pro tebe.",
+        "Prosím, něco dalšího, co mohu udělat pro tebe?",
+        "Řekni mi, pokud potřebuješ něco dalšího.",
+        "Kdykoliv rád pomohu, dej mi vědět."
+      ]
+    },
+  {"tag": "programování",
+   "patterns": ["tvůj oblíbený jazyk programování"],
+   "responses": [ "Mám rád Python, je to skvělý jazyk! A co ty?",
+                  "Jsem bot, nemohu mít oblíbený jazyk programování."]
+  }
+]}
